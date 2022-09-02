@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # Analysis Stuff
-.ipynb
+*.ipynb
 data/
