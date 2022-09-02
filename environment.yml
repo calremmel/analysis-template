@@ -1,0 +1,14 @@
+name: template
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - black
+    - flake8
+    - isort
+    - jupyterlab
+    - jupytext
+    - pytest
