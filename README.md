@@ -1,4 +1,5 @@
 # analysis-template
+
 A general template for analytics projects.
 
 # Getting Started
@@ -19,6 +20,12 @@ Next, generate your project:
 
 ## 2. Create Virtual Environment
 
+Install basic dependences using the following command (assumes `conda` or `mamba` installed):
+
+```
+> conda env create -n ENV_NAME -f environment.yml
+```
+
 ## 3. Configure Project
 
 To make your packages in `src` importable from anywhere:
@@ -30,7 +37,7 @@ To make your packages in `src` importable from anywhere:
 Next, in order to name your package:
 
 ```
-> mv src new_package_name
+> mv src PACKAGE_NAME
 ```
 
 ## 3. Configure Jupyter
