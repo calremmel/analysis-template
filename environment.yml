@@ -10,5 +10,6 @@ dependencies:
     - flake8
     - isort
     - jupyterlab
+    - jupyterlab-code-formatter
     - jupytext
     - pytest

@@ -13,11 +13,16 @@ jupyter:
     name: python3
 ---
 
+<!-- #region tags=[] -->
 # 01_Exploration
 
 This is a boilerplate notebook to demonstrate usage with Markdown and git.
+<!-- #endregion -->
 
 ```python
+%load_ext autoreload
+%autoreload 2
+
 from src.core import returns_one
 ```
 
